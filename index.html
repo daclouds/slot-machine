@@ -7,12 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2.0">
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="bower_components/jQuery-SlotMachine/dist/jquery.slotmachine.css" type="text/css" media="screen" />
+                <link rel="stylesheet" href="css/jquery.slotmachine.css" type="text/css" media="screen" />
+                <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+
 
 		<script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="bower_components/jQuery-SlotMachine/dist/jquery.slotmachine.js"></script>
 
 	</head>
 
@@ -58,36 +58,7 @@
 			</div>
 			<div class="clearfix"></div>
 		</div>
-		<script>
-			$(document).ready(function(){
-				var machine4 = $("#casino1").slotMachine({
-					active	: 0,
-					delay	: 500
-				});
-
-				var machine5 = $("#casino2").slotMachine({
-					active	: 1,
-					delay	: 500
-				});
-
-				machine6 = $("#casino3").slotMachine({
-					active	: 2,
-					delay	: 500
-				});
-
-				$("#slotMachineButtonShuffle").click(function(){
-					machine4.shuffle();
-					machine5.shuffle();
-					machine6.shuffle();
-				});
-
-				$("#slotMachineButtonStop").click(function(){
-                                    machine4.stop();
-                                    machine5.stop();
-                                    machine6.stop();
-				});
-			});
-		</script>
+                <script src="dist/entry.js"><script>
 	</body>
 </html>
 

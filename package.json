@@ -1,0 +1,31 @@
+{
+  "name": "slot-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daclouds/slot-machine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daclouds/slot-machine/issues"
+  },
+  "homepage": "https://github.com/daclouds/slot-machine#readme",
+  "devDependencies": {
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "browserify-bower": "^0.6.1",
+    "gulp-clean": "^0.3.2",
+    "jquery": "^3.1.1"
+  }
+}
